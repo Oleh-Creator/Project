@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+.wrap{
+    width: 100%;
+    min-height: 400vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 12%;
+    background-color: #fff;
+    opacity: 0.9;
+    display: flex;
+    position: fixed;
+    z-index: 400;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    color: #000;
+}
+header a{
+    display: flex;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+.HeadIt:hover{
+    color: gray;
+}
+.headerItemsBox{
+    width: 70%;
+    display: flex;
+    color: #000;
+    justify-content: space-around;
+}
+.FirstBox{
+width: 100%;
+min-height: 100vh;
+display: flex;
+background-image:url(./img/Background1.png);
+justify-content: space-between;
+padding-left: 10%;
+padding-right: 10%;
+color: #fff;
+}
+.FirstBoxItems{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 8%;
+}
+.LogoLine{
+    width: 100%;
+    display: flex;
+}
+.RightBox{
+    width: 500px;
+    height: 500px;
+    display: none;
+    background-color: #fff;
+    margin-top: 8%;
+    opacity: 0.7;
+    color: #000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+    font-size: 17px;
+}
+.RightBox2{
+    width: 500px;
+    height: 500px;
+    display: none;
+    background-color: #fff;
+    margin-top: 8%;
+    opacity: 0.7;
+    color: #000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+    font-size: 17px;
+}
+.RightBox3{
+    width: 500px;
+    height: 500px;
+    display: none;
+    background-color: #fff;
+    margin-top: 8%;
+    opacity: 0.7;
+    color: #000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+    font-size: 17px;
+}
+.RightBox4{
+    width: 500px;
+    height: 500px;
+    display: none;
+    background-color: #fff;
+    margin-top: 8%;
+    opacity: 0.7;
+    color: #000;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+    font-size: 17px;
+}
+.ItemsLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.RightBoxItem{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    background-color:#060047;
+    border-radius: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.RightBoxItem2{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    background-color:#060047;
+    border-radius: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.RightBoxItem3{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    background-color:#060047;
+    border-radius: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.RightBoxItem4{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    background-color:#060047;
+    border-radius: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.RightBoxItem:hover{
+    background-color:#100680;
+}
+.RightBoxLog{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.RightBoxItems{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.LogoBox{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    color: #000;
+    border-radius: 10px;
+}
+.LogoBox p{
+    font-weight: 900;
+    z-index: 1;
+    color: #000;
+    position: relative;
+    display: flex;
+}
+.FirstInfBox{
+    width: 270px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    top: 1%;
+}
+.FirstBoxItems button{
+    width: 270px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    background-color:#060047;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.FirstBoxItems button:hover{
+    background-color:#100680;
+}
+.ItemsBox{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    background-color: rgb(205, 205, 205);
+    color: white;
+}
+.Item{
+    width: 300px;
+    height: 380px;
+    display:flex;
+    cursor: pointer;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    align-items: center;
+    padding: 10px;
+}
+
+.ItImg{
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+}
+.MetodikBox{
+    width: 100%;
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.MetodikBoxItemLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.MetodikBoxItem{
+    width:350px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+.MetodikBoxItem:hover{
+    box-shadow: 5px 5px 5px rgb(159, 159, 159);
+}
+
+.MetodikBoxItem img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+.MetodikBoxItemLogo{
+    font-size: 30px;
+    font-weight: 800;
+}
+.MetodikBoxItemInfBox{
+    display: flex;
+    transition: 0.5s;
+}
+.MetodikBoxItemBut{
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s;
+}
+.MetodikBoxItemBut2{
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(168, 165, 165);
+    cursor: pointer;
+    display: none;
+    transition: 0.7s;
+}
+#MetodikBoxItemBut:hover{
+    background-color: rgb(163, 231, 60);
+}
+#MetodikBoxItemBut2:hover{
+    background-color: gray;
+}
+.RegistBox{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: none;
+    z-index: 500;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+}
+.RegistItem{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px gray;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.RegistLine{
+width: 100%;
+display: flex;
+justify-content: center;
+font-size: 30px;
+font-weight: 800;
+}
+.RegistItem input{
+    width: 300px;
+    display: flex;
+}
+.RegistIt{
+    flex-direction: column;
+    font-weight: 800;
+}
+.RegistBut{
+width: 300px;
+height: 50px;
+background-color: greenyellow;
+border: none;
+cursor: pointer;
+position: relative;
+top: 50px;
+}
+.RegistBut:hover{
+    background-color: rgb(163, 231, 60);
+    }
+    .PedagpgsBox{
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(205, 205, 205);
+        margin-top: 100px;
+        text-align: center;
+        padding: 5%;
+        color: #fff;
+    }
+    .PedagpgsItemsBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .PedagogsItem{
+        width: 330px;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        background-color: rgb(220, 219, 219);
+        padding-top: 10px;
+        color: #000;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .PedagogsItem:hover{
+        box-shadow: 4px 4px 4px rgb(220, 219, 219);
+    }
+    .PedagogsItem img{
+        width: 260px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .PedagogsItem button{
+        width: 200px;
+        height: 30px;
+        background-color:#060047;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+    }
+    .PedagogsItem button:hover{
+        background-color:#100680;
+    }
+    .PedagogInfBox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .AboutBox{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .AboutBoxItemsBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        position: relative;
+        top: 9%;
+    }
+    .AboutBoxInf{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    ol {
+        list-style-type: upper-roman;
+      }
+      .AboutBox img{
+        width: 450px;
+        height: 500px;
+      }
+      .SwBox{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+      }
+   .swiper-slide{
+    width: 200px;
+   }
+   iframe{
+    width: 500px;
+   }
+  
+   .VideoBox{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   }
+   .VideoBoxLogoBox{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   }
+   .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .swSl{
+    width: 10px;
+  }
+.MotBox{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    background:linear-gradient(270deg, rgba(10, 9, 28, 0.72) -33.11%, rgba(243, 255, 247, 0.45) 65.98%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MotBoxItems{
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.MotBoxItems img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-color: rgb(205, 205, 205);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content:space-around ;
+    padding-top: 50px;
+}
+.ContactsBox{
+    width: 35%;   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    cursor: pointer;
+}
+.AdresBox{
+    width: 35%;   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.inst:hover{
+color: red;
+}
+.tel:hover{
+    color: blue;
+}
+.social{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.social a{
+    text-decoration: none;
+    color: #000;
+}
+.TestBox{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 600;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.TestBoxLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color:#100680;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.TestBoxRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TestBoxLeft p{
+    font-size: 50px;
+    font-weight: 700;
+}
+.TestBoxRightItemsBox{
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    align-items: center;
+}
+.TestBoxRightItem{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border: 1px solid;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 5%
+}
+.TextBox{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TestBoxButton{
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background-color:#100680;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.TestBoxButton:hover{
+    background-color:#1306a0;
+}
+.TestBoxLeftText2{
+    display: none;
+}
+.TestBoxRightItemsBox2{
+    width: 500px;
+    height: 800px;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    align-items: center;
+}
+.TestBoxLeftText3{
+    display: none;
+}
+.TestBoxRightItemsBox3{
+    width: 500px;
+    height: 800px;
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 40%;
+    align-items: center;
+}
+.TablCont{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    padding-top: 10%;
+    z-index: 900;
+    backdrop-filter: blur(10px);
+}
+.FurstBut4{
+    background-color: gray;
+}
